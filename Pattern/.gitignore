@@ -1,0 +1,18 @@
+# created by virtualenv automatically
+*Lib
+*Scripts
+External Libraries
+
+# Ignore virtual environment
+venv/
+
+# Ignore pipenv
+.Python
+bin/
+lib/
+include/
+.Pipfile
+.Pipfile.lock
+
+# Ignore pipenv
+__pypackages__/

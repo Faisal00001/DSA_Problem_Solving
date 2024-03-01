@@ -69,16 +69,54 @@
 #     i = i+1
 
 # Problem 6
+# i = 1
+# n = int(input("Enter the number"))
+# while i <= n:
+#     space = n-i
+#     while space:
+#         print(" ", end="")
+#         space = space-1
+#     j = 1
+#     while j <= i:
+#         print("*", end="")
+#         j = j+1
+#     print()
+#     i = i+1
+
+# Problem 7
+# i = 1
+# n = int(input("Enter the number "))
+# while i <= n:
+#     space = i-1
+#     while space:
+#         print(" ", end="")
+#         space = space-1
+#     j = 1
+#     while j <= n-i+1:
+#         print("X", end="")
+#         j = j+1
+#     print()
+#     i = i+1
+
+# problem 8
 i = 1
-n = int(input("Enter the number"))
+n = int(input("Enter the number "))
 while i <= n:
-    space = n-i
-    while space:
-        print(" ", end="")
-        space = space-1
+    # Number
     j = 1
-    while j <= i:
-        print("*", end="")
+    while j <= n-i+1:
+        print(j, end="")
         j = j+1
+    # star
+    star = 2*i-2
+    while star:
+        print("*", end="")
+        star = star-1
+    # Number
+    k = n-i+1
+    while k >= 1:
+        print(k, end="")
+        k = k-1
     print()
     i = i+1
+
